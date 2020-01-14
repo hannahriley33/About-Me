@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://pbs.twimg.com/profile_images/875395483128049664/8z_jvdLB.jpg"); background-size: 100%;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    border: black solid 2px;
+    padding: 13px;
+    
+}
+
+.formatOne {
+    border: black solid 2px;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    padding: 20px 1px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
+}
+
+#divBackground {
+    background-color: rgba(211, 211, 211, 0.342);
+    width: 350px;
+    margin: 0 auto;
+}
+
+#button {
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgba(211, 211, 211, 0.342);
+    border: black solid 2px;
+ 
+}
+
+.list {
+    list-style-position: inside;
+    font-size: 24px;
+}
+
+#buttonAlign {
+    display: flex;
+    justify-content: center;
+    
+}
