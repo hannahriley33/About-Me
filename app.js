@@ -26,5 +26,5 @@ button.addEventListener('click', () => {
     }
     const quizDone = alert(`${name} you finished! Results are coming up.`);
 
-score.textContent = `${name} you got ${count} correct!`;    
+score.textContent = `${name} you got ${count}/3 correct!`;    
 });
