@@ -8,14 +8,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(214, 144, 144)
-   
 }
 
 h1 {
     font-family: 'Josefin Slab', serif;
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
     
 }
 
@@ -54,7 +53,7 @@ h1 {
     font-size: 24px;
     width: 60%;
     margin: auto;
-    text-align: left;
+    text-align: left;   
 }
 
 .list2 {
@@ -78,4 +77,10 @@ h1 {
 
 h2 {
     font-size: 30px;
+}
+#results {
+    visibility: hidden;
+    background-color: rgba(211, 211, 211, 0.616);
+    width: 400px;
+    margin: 0 auto;
 }

@@ -3,8 +3,10 @@ import isYes from '../is-yes.js'
  const button = document.getElementById('button');
 
 const score = document.getElementById('score');
+const resultsAppear = document.getElementById('results');
 
 button.addEventListener('click', () => {
+    
     const name = prompt('What\'s your name?');
     const areYouSure = confirm('Do you want to take this quiz?');
     if (areYouSure === false) {
@@ -25,6 +27,11 @@ button.addEventListener('click', () => {
         count++;
     }
     const quizDone = alert(`${name} you finished! Results are coming up.`);
+   
+let percentage = count / 3 * 100;  
+let mathRound = Math.round(percentage);
 
-score.textContent = `${name} you got ${count}/3 correct!`;    
+score.textContent = `${name} you got ${count}/3 correct, which is ${mathRound}%!`;   
+document.getElementById('results').style.visibility = 'visible';
+
 });
