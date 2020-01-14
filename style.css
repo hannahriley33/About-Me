@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://www.collegeconsensus.com/wp-content/uploads/2016/12/intro_about-800x532.jpg"); 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(214, 144, 144)
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    
+}
+
+.formatOne {
+    border: black solid 2px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    padding: 20px 1px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#divBackground {
+    background-color: rgba(211, 211, 211, 0.616);
+    width: 400px;
+    margin: 0 auto;
+}
+
+#button {
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgba(211, 211, 211, 0.616);
+    border: black solid 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ 
+}
+
+.list1 {
+    font-size: 24px;
+    width: 60%;
+    margin: auto;
+    text-align: left;   
+}
+
+.list2 {
+    font-size: 24px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.list3 {
+    font-size: 24px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+#buttonAlign {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+#results {
+    visibility: hidden;
+    background-color: rgba(211, 211, 211, 0.616);
+    width: 400px;
+    margin: 0 auto;
+}
