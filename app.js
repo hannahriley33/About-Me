@@ -1,4 +1,4 @@
-import isYes from '../is-yes.js'
+import isYes from './is-yes.js'
 
  const button = document.getElementById('button');
 
